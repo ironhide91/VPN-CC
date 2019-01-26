@@ -1,0 +1,13 @@
+﻿<Window x:Class="Xvpn.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        xmlns:Local="clr-namespace:Xvpn.UI.LocationModule"
+        Title="Express VPN" Height="600" Width="500">
+    <Grid>
+        <ContentControl prism:RegionManager.RegionName="{x:Static Local:LocationPrismModule.REGION_NAME}" />
+    </Grid>
+</Window>
