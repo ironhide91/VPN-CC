@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xvpn.UI", "XvpnUI\Xvpn.UI.csproj", "{999FC1E0-C9EB-4FF5-BE1E-E9E0E2802184}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vpn.UI", "VpnUI\Vpn.UI.csproj", "{999FC1E0-C9EB-4FF5-BE1E-E9E0E2802184}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xvpn.BusinessLogic", "XvpnBusinessLogic\Xvpn.BusinessLogic.csproj", "{A69FCFCC-D11B-4AC1-9C75-51F68418DA52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vpn.BusinessLogic", "VpnBusinessLogic\Vpn.BusinessLogic.csproj", "{A69FCFCC-D11B-4AC1-9C75-51F68418DA52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xvpn.Tests", "XvpnTest\Xvpn.Tests.csproj", "{D85C3ABA-9E1D-4010-8092-627EA7ED902A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vpn.Tests", "VpnTest\Vpn.Tests.csproj", "{D85C3ABA-9E1D-4010-8092-627EA7ED902A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
